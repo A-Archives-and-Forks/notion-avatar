@@ -128,7 +128,7 @@
     "text2avatar": "文字生成",
     "uploadTitle": "上傳照片",
     "uploadDesc": "拖拽或點擊上傳",
-    "uploadTip": "支援格式: JPG, PNG。最大 5MB。",
+    "uploadTip": "支援格式: JPG, PNG。最大 2MB。",
     "descPlaceholder": "描述您想生成的頭像，例如：'一個戴眼鏡的長髮女孩'",
     "generate": "生成頭像",
     "generating": "生成中...",
@@ -273,6 +273,7 @@
     "subscriptionCanceled": "您的訂閱已取消",
     "resubscribe": "重新訂閱",
     "generationHistoryProOnly": "生成歷史僅限 Pro 用戶使用。",
+    "freeUsersNotStored": "免費用戶的生成圖片不會被保存，請及時下載到本地。",
     "upgradeToViewHistory": "升級到 Pro 以查看您的生成歷史",
     "promo": {
       "title": "促銷碼",

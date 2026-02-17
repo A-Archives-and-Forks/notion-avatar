@@ -125,7 +125,7 @@
     "text2avatar": "Texto para Avatar",
     "uploadTitle": "Enviar Foto",
     "uploadDesc": "Arraste e solte ou clique para enviar",
-    "uploadTip": "Formatos suportados: JPG, PNG. Máx. 5MB.",
+    "uploadTip": "Formatos suportados: JPG, PNG. Máx. 2MB.",
     "descPlaceholder": "Descreva o avatar que deseja gerar, ex.: 'Uma garota com óculos e cabelo longo'",
     "generate": "Gerar Avatar",
     "generating": "Gerando...",
@@ -270,6 +270,7 @@
     "subscriptionCanceled": "Sua assinatura foi cancelada",
     "resubscribe": "Reassinar",
     "generationHistoryProOnly": "O histórico de gerações está disponível apenas para usuários Pro.",
+    "freeUsersNotStored": "Imagens geradas não são armazenadas para usuários gratuitos. Baixe-as imediatamente.",
     "upgradeToViewHistory": "Atualize para Pro para ver seu histórico de gerações",
     "promo": {
       "title": "Código Promocional",

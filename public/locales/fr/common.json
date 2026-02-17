@@ -128,7 +128,7 @@
     "text2avatar": "Texte vers Avatar",
     "uploadTitle": "Télécharger une Photo",
     "uploadDesc": "Glisser-déposer ou cliquer pour télécharger",
-    "uploadTip": "Formats supportés : JPG, PNG. Max 5MB.",
+    "uploadTip": "Formats supportés : JPG, PNG. Max 2MB.",
     "descPlaceholder": "Décrivez l'avatar que vous souhaitez générer, ex. : 'Une fille avec des lunettes et les cheveux longs'",
     "generate": "Générer l'Avatar",
     "generating": "Génération...",
@@ -273,6 +273,7 @@
     "subscriptionCanceled": "Votre abonnement a été annulé",
     "resubscribe": "Réabonner",
     "generationHistoryProOnly": "L'historique des générations est disponible uniquement pour les utilisateurs Pro.",
+    "freeUsersNotStored": "Les images générées ne sont pas stockées pour les utilisateurs gratuits. Veuillez les télécharger rapidement.",
     "upgradeToViewHistory": "Mettez à niveau vers Pro pour voir votre historique de générations",
     "promo": {
       "title": "Code Promo",

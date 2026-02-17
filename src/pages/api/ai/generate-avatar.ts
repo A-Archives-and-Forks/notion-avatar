@@ -53,6 +53,7 @@ export default async function handler(
     // Check usage limits
     let canGenerate = false;
     let useCredits = false;
+    let isPaidUser = false;
 
     if (user) {
       // Check subscription
@@ -68,6 +69,7 @@ export default async function handler(
       ) {
         // Unlimited for paid subscribers
         canGenerate = true;
+        isPaidUser = true;
       } else {
         // Check free daily limit
         const today = new Date().toISOString().split('T')[0];
@@ -99,6 +101,7 @@ export default async function handler(
           ) {
             canGenerate = true;
             useCredits = true;
+            isPaidUser = true;
           }
         }
       }
@@ -120,15 +123,17 @@ export default async function handler(
     const input = mode === 'photo2avatar' ? image! : description!;
     const generatedImage = await generateAvatar(mode, input);
 
-    // Upload image to Supabase Storage
+    // Upload image to Supabase Storage (paid users only - saves storage costs)
     let imagePath: string | null = null;
-    try {
-      const imageBuffer = base64ToBuffer(generatedImage);
-      imagePath = await uploadImageToStorage(imageBuffer, user!.id);
-    } catch (uploadError) {
-      console.error('Failed to upload image to storage:', uploadError);
-      // Continue without storing image path - don't fail the request
-      // The base64 image is still returned to the client
+    if (isPaidUser) {
+      try {
+        const imageBuffer = base64ToBuffer(generatedImage);
+        imagePath = await uploadImageToStorage(imageBuffer, user!.id);
+      } catch (uploadError) {
+        console.error('Failed to upload image to storage:', uploadError);
+        // Continue without storing image path - don't fail the request
+        // The base64 image is still returned to the client
+      }
     }
 
     // Record usage
@@ -214,7 +219,7 @@ export default async function handler(
 export const config = {
   api: {
     bodyParser: {
-      sizeLimit: '10mb', // Support large image uploads
+      sizeLimit: '2mb', // Max image upload size
     },
   },
 };

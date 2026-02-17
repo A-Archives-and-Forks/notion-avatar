@@ -128,7 +128,7 @@
     "text2avatar": "Text to Avatar",
     "uploadTitle": "Upload Photo",
     "uploadDesc": "Drag & drop or click to upload",
-    "uploadTip": "Supported formats: JPG, PNG. Max 5MB.",
+    "uploadTip": "Supported formats: JPG, PNG. Max 2MB.",
     "descPlaceholder": "Describe the avatar you want to generate, e.g., 'A girl with glasses and long hair'",
     "generate": "Generate Avatar",
     "generating": "Generating...",
@@ -273,6 +273,7 @@
     "subscriptionCanceled": "Your subscription has been canceled",
     "resubscribe": "Resubscribe",
     "generationHistoryProOnly": "Generation history is available for Pro users only.",
+    "freeUsersNotStored": "Generated images are not stored for free users. Please download them promptly.",
     "upgradeToViewHistory": "Upgrade to Pro to view your generation history",
     "promo": {
       "title": "Promo Code",
