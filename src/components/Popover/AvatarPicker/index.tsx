@@ -68,6 +68,7 @@ export default function AvatarPickerPopover({
                       }
                       width={50}
                       height={50}
+                      unoptimized
                     />
                   </div>
                 </button>

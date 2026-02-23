@@ -87,7 +87,13 @@ function ImageComparison({
     >
       {/* Before Image (Background) */}
       <div className="absolute inset-0">
-        <Image src={before} alt="Before" layout="fill" objectFit="cover" />
+        <Image
+          src={before}
+          alt="Before"
+          layout="fill"
+          objectFit="cover"
+          unoptimized
+        />
       </div>
 
       {/* After Image (Clipped) */}
@@ -95,7 +101,13 @@ function ImageComparison({
         className="absolute inset-0 overflow-hidden"
         style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
       >
-        <Image src={after} alt="After" layout="fill" objectFit="cover" />
+        <Image
+          src={after}
+          alt="After"
+          layout="fill"
+          objectFit="cover"
+          unoptimized
+        />
       </div>
 
       {/* Slider Line */}
@@ -190,6 +202,7 @@ export default function ExamplesShowcase({
                   width={32}
                   height={34}
                   alt="Bling"
+                  unoptimized
                 />
               </span>
             </h2>
@@ -219,6 +232,7 @@ export default function ExamplesShowcase({
                       layout="fill"
                       objectFit="cover"
                       className="rounded-lg"
+                      unoptimized
                     />
                   </div>
                 )}
@@ -280,6 +294,7 @@ export default function ExamplesShowcase({
                       alt="Generated Avatar"
                       layout="fill"
                       objectFit="cover"
+                      unoptimized
                     />
                   </div>
                 </div>

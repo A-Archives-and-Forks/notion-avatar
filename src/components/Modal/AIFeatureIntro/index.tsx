@@ -78,6 +78,7 @@ export default function AIFeatureIntroModal({
               width={512}
               height={242}
               priority
+              unoptimized
             />
           </div>
 

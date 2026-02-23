@@ -60,6 +60,7 @@ export default function AvatarPicker({
                       }
                       width={50}
                       height={50}
+                      unoptimized
                     />
                   </div>
                 </button>

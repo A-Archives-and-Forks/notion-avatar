@@ -268,6 +268,7 @@ export default function AvatarEditor() {
                     height={30}
                     src="/icon/language.svg"
                     alt={t('language')}
+                    unoptimized
                   />
                 </button>
                 {showLanguageMenu && (
@@ -317,6 +318,7 @@ export default function AvatarEditor() {
                   height={30}
                   src={flip ? '/icon/flip-left.svg' : '/icon/flip-right.svg'}
                   alt={t('flip')}
+                  unoptimized
                 />
               </button>
               <div className="relative" id="palette-picker">
@@ -331,6 +333,7 @@ export default function AvatarEditor() {
                     height={30}
                     src="/icon/palette.svg"
                     alt={t('background')}
+                    unoptimized
                   />
                 </button>
                 {modalStates.palette && (
@@ -365,6 +368,7 @@ export default function AvatarEditor() {
                     width={30}
                     height={30}
                     alt={t(type)}
+                    unoptimized
                   />
                 </SelectionWrapper>
                 {avatarPart?.part === type && (
@@ -407,6 +411,7 @@ export default function AvatarEditor() {
                       width={30}
                       height={30}
                       alt={FestivalTooltipEmoji[festival]}
+                      unoptimized
                     />
                     <span className="top-0 right-0 absolute bg-red-600 text-xs text-white rounded translate-x-1/2 px-1 -translate-y-1/2">
                       New
@@ -449,6 +454,7 @@ export default function AvatarEditor() {
                 alt={t('random')}
                 width={28}
                 height={28}
+                unoptimized
               />
               <span className="ml-3">{t('random')}</span>
             </button>
@@ -462,6 +468,7 @@ export default function AvatarEditor() {
                 alt={t('embed')}
                 width={28}
                 height={28}
+                unoptimized
               />
               <span className="ml-3">{t('embed')}</span>
             </button>
@@ -476,6 +483,7 @@ export default function AvatarEditor() {
                   alt={t('download')}
                   width={28}
                   height={28}
+                  unoptimized
                 />
                 <span className="ml-3">{t('download')}</span>
               </button>
@@ -531,6 +539,7 @@ export default function AvatarEditor() {
             alt=""
             loading="lazy"
             aria-hidden="true"
+            unoptimized
           />
         </div>
       </div>

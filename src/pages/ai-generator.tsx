@@ -468,6 +468,7 @@ export default function AIGeneratorPage({
                   alt="Stars"
                   priority
                   loading="eager"
+                  unoptimized
                 />
               </div>
             </div>
@@ -516,6 +517,7 @@ export default function AIGeneratorPage({
               width={59}
               height={126}
               loading="lazy"
+              unoptimized
             />
           </div>
           <section className="py-16 mb-12 animate-in fade-in slide-in-from-bottom-4 duration-500 delay-200">

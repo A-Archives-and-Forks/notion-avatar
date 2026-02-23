@@ -97,6 +97,7 @@ export default function ShareModal({ onCancel, image }: ShareModalProps) {
                 height={24}
                 className="mr-2 hover:cursor-pointer"
                 onClick={shareToX}
+                unoptimized
               />
               <Image
                 src="/icon/facebook-logo.svg"
@@ -105,6 +106,7 @@ export default function ShareModal({ onCancel, image }: ShareModalProps) {
                 height={24}
                 className="mr-2 hover:cursor-pointer"
                 onClick={shareToFacebook}
+                unoptimized
               />
               <Image
                 src="/icon/ins-logo.svg"
@@ -113,6 +115,7 @@ export default function ShareModal({ onCancel, image }: ShareModalProps) {
                 height={24}
                 className="mr-2 hover:cursor-pointer"
                 onClick={shareToInstagram}
+                unoptimized
               />
               <Image
                 src="/icon/reddit-logo.svg"
@@ -121,6 +124,7 @@ export default function ShareModal({ onCancel, image }: ShareModalProps) {
                 height={24}
                 className="mr-2 hover:cursor-pointer"
                 onClick={shareToReddit}
+                unoptimized
               />
               <Image
                 src="/icon/tiktok-logo.svg"
@@ -129,6 +133,7 @@ export default function ShareModal({ onCancel, image }: ShareModalProps) {
                 height={24}
                 className="mr-2 hover:cursor-pointer"
                 onClick={shareToTikTok}
+                unoptimized
               />
             </div>
           </div>

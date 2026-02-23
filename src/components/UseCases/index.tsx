@@ -21,6 +21,7 @@ export default function UseCases() {
                 height={34}
                 alt="star"
                 aria-hidden="true"
+                unoptimized
               />
             </span>
           </h2>

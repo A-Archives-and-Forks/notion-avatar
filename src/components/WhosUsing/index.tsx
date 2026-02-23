@@ -55,7 +55,13 @@ export default function WhosUsing() {
   return (
     <section className="py-16 relative mt-8">
       <div className="absolute left-[-40px] top-0">
-        <Image src="/icon/chat.svg" width="145" height="140" alt="Icon Chat" />
+        <Image
+          src="/icon/chat.svg"
+          width="145"
+          height="140"
+          alt="Icon Chat"
+          unoptimized
+        />
       </div>
       <div className="max-w-4xl mx-auto px-4 mt-8">
         <div className="text-center mb-16">
@@ -88,6 +94,7 @@ export default function WhosUsing() {
                       layout="fill"
                       objectFit="cover"
                       className="rounded-full border-2 border-black"
+                      unoptimized
                     />
                   </div>
                   <div className="flex-1 min-w-0">
@@ -104,6 +111,7 @@ export default function WhosUsing() {
                         height={20}
                         alt="X"
                         className="flex-shrink-0"
+                        unoptimized
                       />
                     </div>
                     <p className="mt-3 text-sm leading-relaxed text-black">

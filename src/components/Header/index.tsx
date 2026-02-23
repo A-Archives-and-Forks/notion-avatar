@@ -45,6 +45,7 @@ export default function Header() {
               height={50}
               priority
               loading="eager"
+              unoptimized
             />
             <span className="w-36 sm:w-48 text-lg leading-tight relative inline-block">
               Notion {router.pathname === '/ai-generator' ? 'AI' : ''}
@@ -58,6 +59,7 @@ export default function Header() {
                     width={18}
                     height={18}
                     className="drop-shadow-sm"
+                    unoptimized
                   />
                 </span>
               )}
@@ -79,7 +81,13 @@ export default function Header() {
                   : 'opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100'
               }`}
             >
-              <Image src="/icon/bling.svg" width={32} height={34} alt="Bling" />
+              <Image
+                src="/icon/bling.svg"
+                width={32}
+                height={34}
+                alt="Bling"
+                unoptimized
+              />
             </span>
           </Link>
 
@@ -95,7 +103,13 @@ export default function Header() {
                   : 'opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100'
               }`}
             >
-              <Image src="/icon/bling.svg" width={32} height={34} alt="Bling" />
+              <Image
+                src="/icon/bling.svg"
+                width={32}
+                height={34}
+                alt="Bling"
+                unoptimized
+              />
             </span>
           </Link>
 
@@ -111,7 +125,13 @@ export default function Header() {
                   : 'opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100'
               }`}
             >
-              <Image src="/icon/bling.svg" width={32} height={34} alt="Bling" />
+              <Image
+                src="/icon/bling.svg"
+                width={32}
+                height={34}
+                alt="Bling"
+                unoptimized
+              />
             </span>
           </Link>
 
@@ -127,7 +147,13 @@ export default function Header() {
                   : 'opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100'
               }`}
             >
-              <Image src="/icon/bling.svg" width={32} height={34} alt="Bling" />
+              <Image
+                src="/icon/bling.svg"
+                width={32}
+                height={34}
+                alt="Bling"
+                unoptimized
+              />
             </span>
           </Link>
           <LanguageSwitcher />
@@ -255,6 +281,7 @@ export default function Header() {
                     width={20}
                     height={20}
                     className="drop-shadow-sm"
+                    unoptimized
                   />
                   <span className="relative z-10">{t('ai.title')}</span>
                 </Link>
@@ -343,6 +370,7 @@ export default function Header() {
                         alt="Language"
                         width={20}
                         height={20}
+                        unoptimized
                       />
                       <span className="font-bold text-black">
                         {t('language')}

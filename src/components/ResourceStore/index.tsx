@@ -109,6 +109,7 @@ export default function ResourceStore({
                 height={34}
                 alt="bling"
                 aria-hidden="true"
+                unoptimized
               />
             </span>
           </h2>
@@ -123,6 +124,7 @@ export default function ResourceStore({
                 layout="fill"
                 objectFit="cover"
                 className="rounded-lg"
+                unoptimized
               />
             </div>
             <h3 className="text-xl font-bold mb-4">
@@ -147,6 +149,7 @@ export default function ResourceStore({
                   width={20}
                   height={20}
                   alt="check"
+                  unoptimized
                 />
                 <span className="ml-2">Figma</span>
               </div>
@@ -156,6 +159,7 @@ export default function ResourceStore({
                   width={20}
                   height={20}
                   alt="check"
+                  unoptimized
                 />
                 <span className="ml-2">
                   {t('resourceStore.designPack.features.1')}
@@ -167,6 +171,7 @@ export default function ResourceStore({
                   width={20}
                   height={20}
                   alt="check"
+                  unoptimized
                 />
                 <span className="ml-2 font-medium group-hover:underline">
                   {t('resourceStore.freeForPro')}
@@ -215,6 +220,7 @@ export default function ResourceStore({
                 layout="fill"
                 objectFit="cover"
                 className="rounded-lg"
+                unoptimized
               />
             </div>
             <h3 className="text-xl font-bold mb-4">
@@ -239,6 +245,7 @@ export default function ResourceStore({
                   width={20}
                   height={20}
                   alt="check"
+                  unoptimized
                 />
                 <span className="ml-2">SVG + Figma</span>
               </div>
@@ -248,6 +255,7 @@ export default function ResourceStore({
                   width={20}
                   height={20}
                   alt="check"
+                  unoptimized
                 />
                 <span className="ml-2">
                   {t('resourceStore.scribblesPack.features.1')}
@@ -259,6 +267,7 @@ export default function ResourceStore({
                   width={20}
                   height={20}
                   alt="check"
+                  unoptimized
                 />
                 <span className="ml-2 font-medium group-hover:underline">
                   {t('resourceStore.freeForPro')}

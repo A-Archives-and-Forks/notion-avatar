@@ -57,6 +57,7 @@ export default function LanguageSwitcher({
           alt="Language"
           width={iconSize}
           height={iconSize}
+          unoptimized
         />
       </button>
       {showLanguageMenu && (

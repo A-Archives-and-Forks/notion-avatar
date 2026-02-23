@@ -529,6 +529,7 @@ export default function AccountPage({
                                   : 'opacity-100'
                               }`}
                               loading="lazy"
+                              unoptimized
                               onClick={() => {
                                 if (record.image_url) {
                                   handleImagePreview(record.image_url);

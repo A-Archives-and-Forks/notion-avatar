@@ -9,7 +9,7 @@ module.exports = withPWA({
     formats: ['image/avif', 'image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-    minimumCacheTTL: 60,
+    minimumCacheTTL: 86400, // 24h - 减少 cache miss，降低 Image Transformations 消耗
     remotePatterns: [
       {
         protocol: 'https',

@@ -38,6 +38,7 @@ export default function SocialDemo() {
               alt="Profile"
               layout="fill"
               className="rounded-full border-3 border-black"
+              unoptimized
             />
           </div>
           <h2 className="text-xl font-bold mb-2">{t('socialDemo.name')}</h2>
@@ -53,13 +54,20 @@ export default function SocialDemo() {
                 width={24}
                 height={24}
                 alt="GitHub"
+                unoptimized
               />
             </a>
             <a
               href="https://x.com/phillzou"
               className="text-gray-600 hover:text-black"
             >
-              <Image src="/icon/x-logo.svg" width={24} height={24} alt="X" />
+              <Image
+                src="/icon/x-logo.svg"
+                width={24}
+                height={24}
+                alt="X"
+                unoptimized
+              />
             </a>
           </div>
         </div>
@@ -87,6 +95,7 @@ export default function SocialDemo() {
                 layout="fill"
                 objectFit="contain"
                 className="rounded-xl"
+                unoptimized
               />
             </div>
             <div className="mt-4 flex items-center space-x-12 text-gray-500">
@@ -102,6 +111,7 @@ export default function SocialDemo() {
                   width={20}
                   height={20}
                   alt="Like"
+                  unoptimized
                 />
                 <span>{likeCount}</span>
               </button>
@@ -115,6 +125,7 @@ export default function SocialDemo() {
                   width={20}
                   height={20}
                   alt="Share"
+                  unoptimized
                 />
                 <span>{repostCount}</span>
               </button>

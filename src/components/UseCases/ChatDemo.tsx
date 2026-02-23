@@ -44,6 +44,7 @@ export default function ChatDemo() {
             alt="Sofia Davis"
             layout="fill"
             className="rounded-full border-3 border-black"
+            unoptimized
           />
         </div>
         <div>
@@ -72,6 +73,7 @@ export default function ChatDemo() {
                 alt={message.sender}
                 layout="fill"
                 className="rounded-full border-3 border-black"
+                unoptimized
               />
             </div>
             <div
@@ -117,6 +119,7 @@ export default function ChatDemo() {
             width={24}
             height={24}
             alt={t('chatDemo.send')}
+            unoptimized
           />
         </button>
       </div>

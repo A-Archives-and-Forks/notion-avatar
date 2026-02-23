@@ -327,6 +327,7 @@ const Home: NextPage<HomeProps> = ({ initialPurchasedPacks }) => {
                     width={48}
                     height={48}
                     alt="Stars"
+                    unoptimized
                   />
                 </div>
               </div>
@@ -342,6 +343,7 @@ const Home: NextPage<HomeProps> = ({ initialPurchasedPacks }) => {
                   className="mx-auto"
                   priority
                   loading="eager"
+                  unoptimized
                 />
               </div>
               <Link
