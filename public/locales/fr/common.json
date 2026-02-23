@@ -277,8 +277,6 @@
     "subscriptionCanceled": "Votre abonnement a été annulé",
     "resubscribe": "Réabonner",
     "generationHistoryProOnly": "L'historique des générations est disponible uniquement pour les utilisateurs Pro.",
-    "freeUsersNotStored": "Les images générées ne sont pas stockées pour les utilisateurs gratuits. Veuillez les télécharger rapidement.",
-    "upgradeToViewHistory": "Mettez à niveau vers Pro pour voir votre historique de générations",
     "promo": {
       "title": "Code Promo",
       "description": "Vous avez un code promo ? Entrez-le ci-dessous pour échanger des crédits.",

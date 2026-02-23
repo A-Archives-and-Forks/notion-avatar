@@ -276,9 +276,7 @@
     "expiresOn": "到期时间",
     "subscriptionCanceled": "您的订阅已取消",
     "resubscribe": "重新订阅",
-    "generationHistoryProOnly": "生成历史仅限 Pro 用户使用。",
-    "freeUsersNotStored": "免费用户的生成图片不会被保存，请及时下载到本地。",
-    "upgradeToViewHistory": "升级到 Pro 以查看您的生成历史",
+    "generationHistoryProOnly": "生成历史仅限 Pro 用户使用",
     "promo": {
       "title": "促销码",
       "description": "有促销码？在下方输入以兑换积分。",

@@ -277,8 +277,6 @@
     "subscriptionCanceled": "Ihr Abonnement wurde gekündigt",
     "resubscribe": "Erneut abonnieren",
     "generationHistoryProOnly": "Generierungsverlauf ist nur für Pro-Benutzer verfügbar.",
-    "freeUsersNotStored": "Generierte Bilder werden für kostenlose Nutzer nicht gespeichert. Bitte laden Sie sie rechtzeitig herunter.",
-    "upgradeToViewHistory": "Upgraden Sie auf Pro, um Ihren Generierungsverlauf anzuzeigen",
     "promo": {
       "title": "Promo-Code",
       "description": "Haben Sie einen Promo-Code? Geben Sie ihn unten ein, um Credits einzulösen.",

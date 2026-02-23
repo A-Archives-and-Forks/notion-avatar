@@ -277,8 +277,6 @@
     "subscriptionCanceled": "Your subscription has been canceled",
     "resubscribe": "Resubscribe",
     "generationHistoryProOnly": "Generation history is available for Pro users only.",
-    "freeUsersNotStored": "Generated images are not stored for free users. Please download them promptly.",
-    "upgradeToViewHistory": "Upgrade to Pro to view your generation history",
     "promo": {
       "title": "Promo Code",
       "description": "Have a promo code? Enter it below to redeem credits.",

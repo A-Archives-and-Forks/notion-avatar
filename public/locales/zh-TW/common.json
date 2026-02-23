@@ -277,8 +277,6 @@
     "subscriptionCanceled": "您的訂閱已取消",
     "resubscribe": "重新訂閱",
     "generationHistoryProOnly": "生成歷史僅限 Pro 用戶使用。",
-    "freeUsersNotStored": "免費用戶的生成圖片不會被保存，請及時下載到本地。",
-    "upgradeToViewHistory": "升級到 Pro 以查看您的生成歷史",
     "promo": {
       "title": "促銷碼",
       "description": "有促銷碼？在下方輸入以兌換積分。",
